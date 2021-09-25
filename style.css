@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Montserrat&display=swap");
+
+body {
+  background: linear-gradient(76.85deg, #9055ff 26.26%, #4be1ec 96.03%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil > img {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.titulo p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #949494;
+  margin-bottom: 0.3rem;
+}
+
+/*===== Projetos =====*/
+
+.projetos {
+  margin-top: 1rem;
+}
+
+.container-projetos {
+  padding: 1.1rem 1rem;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  /*box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.container-projetos h4 {
+  font-size: 36px;
+  font-weight: 700;
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-left: 2.3rem;
+}
+
+.container-projetos ol {
+  margin-left: 1rem;
+  color: black;
+}
+
+.container-projetos li {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.container-projetos p {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #1c1c1c;
+}
+
+/*===== Botão =====*/
+
+.tema button {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+/*===== Tema Escuro =====*/
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
